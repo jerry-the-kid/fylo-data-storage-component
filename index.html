@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="image_src" href="design/desktop-preview.jpg" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="left-side">
+        <img src="images/logo.svg" alt="Logo" class="logo" />
+        <div class="icon-box">
+          <img src="images/icon-document.svg" alt="document" class="icon" />
+        </div>
+        <div class="icon-box">
+          <img src="images/icon-folder.svg" alt="folder" class="icon" />
+        </div>
+        <div class="icon-box">
+          <img src="images/icon-upload.svg" alt="upload" class="icon" />
+        </div>
+      </div>
+      <div class="right-side">
+        <p>
+          You’ve used
+          <span class="highlight">815 GB</span>
+          of your storage
+        </p>
+        <div class="right-side__progress-bar">
+          <div class="right-side__color">
+            <div class="right-side__dot"></div>
+          </div>
+        </div>
+        <div class="right-side__amount">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <div class="right-side__alarm">
+          <span class="right-side__gb">185</span>
+          GB Left
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jerry-the-kid">Hao Pham</a>.
+    </div>
+  </body>
+</html>
